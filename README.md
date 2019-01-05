@@ -16,27 +16,25 @@ To start using Homebrew Cask, you just need [Homebrew](https://brew.sh/) install
 
 Slower, now:
 
-```
-$ brew cask install atom
-==> Satisfying dependencies
-complete
-==> Downloading https://github.com/atom/atom/releases/download/v1.8.0/atom-mac.zip
-######################################################################## 100.0%
-==> Verifying checksum for Cask atom
-==> Moving App 'Atom.app' to '/Applications/Atom.app'
-==> Symlinking Binary 'apm' to '/usr/local/bin/apm'
-==> Symlinking Binary 'atom.sh' to '/usr/local/bin/atom'
-🍺  atom was successfully installed!
-```
+    $ brew cask install atom
+    ==> Satisfying dependencies
+    complete
+    ==> Downloading https://github.com/atom/atom/releases/download/v1.8.0/atom-mac.zip
+    ######################################################################## 100.0%
+    ==> Verifying checksum for Cask atom
+    ==> Moving App 'Atom.app' to '/Applications/Atom.app'
+    ==> Symlinking Binary 'apm' to '/usr/local/bin/apm'
+    ==> Symlinking Binary 'atom.sh' to '/usr/local/bin/atom'
+    🍺  atom was successfully installed!
 
 And there we have it. Atom installed with one quick command: no clicking, no dragging, no dropping.
 
 ## Learn More
 
-* Find basic documentation on using Homebrew Cask in [USAGE.md](USAGE.md)
-* Want to contribute a Cask? Awesome! See [CONTRIBUTING.md](CONTRIBUTING.md)
-* Want to hack on our code? Also awesome! See [hacking.md](doc/development/hacking.md)
-* More project-related details and discussion are available in the [documentation](doc)
+-   Find basic documentation on using Homebrew Cask in [USAGE.md](USAGE.md)
+-   Want to contribute a Cask? Awesome! See [CONTRIBUTING.md](CONTRIBUTING.md)
+-   Want to hack on our code? Also awesome! See [hacking.md](doc/development/hacking.md)
+-   More project-related details and discussion are available in the [documentation](doc)
 
 ## Reporting bugs
 
@@ -48,29 +46,30 @@ If your issue persists, search for it before opening a new one. If you find an o
 
  If the issue is still not solved, see the guides for common problems:
 
-* A cask fails to install:
-  * [`curl` error](doc/reporting_bugs/a_cask_fails_to_install.md#curl-error)
-  * [`Permission denied` error](doc/reporting_bugs/a_cask_fails_to_install.md#permission-denied-error)
-  * [`Checksum does not match` error](doc/reporting_bugs/a_cask_fails_to_install.md#checksum-does-not-match-error)
-  * [`source is not there` error](doc/reporting_bugs/a_cask_fails_to_install.md#source-is-not-there-error)
-  * [`wrong number of arguments` error](doc/reporting_bugs/a_cask_fails_to_install.md#wrong-number-of-arguments-error)
-  * [Unlisted reason](doc/reporting_bugs/a_cask_fails_to_install.md#unlisted-reason)
-* [The app can’t be opened because it is from an unidentified developer](doc/faq/the_app_cant_be_opened.md)
-* [`uninstall` wrongly reports cask as not installed](doc/reporting_bugs/uninstall_wrongly_reports_cask_as_not_installed.md)
-* [`Error: Unknown command: cask` error](doc/reporting_bugs/error_unknown_command_cask.md)
-* [My problem isn’t listed](https://github.com/Homebrew/homebrew-cask/issues/new?template=01_bug_report.md)
+-   A cask fails to install:
+    -   [`curl` error](doc/reporting_bugs/a_cask_fails_to_install.md#curl-error)
+    -   [`Permission denied` error](doc/reporting_bugs/a_cask_fails_to_install.md#permission-denied-error)
+    -   [`Checksum does not match` error](doc/reporting_bugs/a_cask_fails_to_install.md#checksum-does-not-match-error)
+    -   [`source is not there` error](doc/reporting_bugs/a_cask_fails_to_install.md#source-is-not-there-error)
+    -   [`wrong number of arguments` error](doc/reporting_bugs/a_cask_fails_to_install.md#wrong-number-of-arguments-error)
+    -   [Unlisted reason](doc/reporting_bugs/a_cask_fails_to_install.md#unlisted-reason)
+-   [The app can’t be opened because it is from an unidentified developer](doc/faq/the_app_cant_be_opened.md)
+-   [`uninstall` wrongly reports cask as not installed](doc/reporting_bugs/uninstall_wrongly_reports_cask_as_not_installed.md)
+-   [`Error: Unknown command: cask` error](doc/reporting_bugs/error_unknown_command_cask.md)
+-   [My problem isn’t listed](https://github.com/Homebrew/homebrew-cask/issues/new?template=01_bug_report.md)
 
 ## Requests
 
-* Cask requests will be automatically closed. If you want a cask added, [submit a pull request](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#adding-a-cask).
-* For a feature request, [use this template](https://github.com/Homebrew/homebrew-cask/issues/new?template=02_feature_request.md).
+-   Cask requests will be automatically closed. If you want a cask added, [submit a pull request](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#adding-a-cask).
+-   For a feature request, [use this template](https://github.com/Homebrew/homebrew-cask/issues/new?template=02_feature_request.md).
 
 ## Questions? Wanna chat?
 
 We’re really rather friendly! Here are the best places to talk about the project:
 
-* If none of the templates above is appropriate, [open an issue](https://github.com/Homebrew/homebrew-cask/issues/new).
-* Join us on [discourse.brew.sh (forum)](https://discourse.brew.sh)
+-   If none of the templates above is appropriate, [open an issue](https://github.com/Homebrew/homebrew-cask/issues/new).
+-   Join us on [discourse.brew.sh (forum)](https://discourse.brew.sh)
 
 ## License
+
 Code is under the [BSD 2 Clause (NetBSD) license](LICENSE)
